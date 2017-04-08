@@ -7,6 +7,7 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
@@ -26,13 +27,17 @@
                    Start of header
 ========================================================================== -->
     <header>
+
         <aside class="logo">
             <figure>
+                <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
                 <img src="img/logo.svg" alt="">
+                <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+
             </figure>
         </aside>
 
-        <nav>
+        <nav class="mainnav">
             <ul>
                 <li><a href="">Shop</a></li>
                 <li><a href="">Blog</a></li>
@@ -41,7 +46,7 @@
             </ul>
         </nav>
 
-        <div class="">
+        <div class="panier">
             <select name="lang">
               <option value="FR">FR</option>
               <option value="EN"></option>
@@ -119,9 +124,9 @@
                Start of main
 ========================================================================== -->
 
-    <section>
+    <div class="maincontainer">
         <h1>Chausette de ville</h1>
-        <aside class="">
+        <aside class="chausettesize">
             <ul>
                 <li><a href="">Toutes</a></li>
                 <li><a href="">31/35</a></li>
@@ -259,24 +264,24 @@
                 </ul>
             </section>
         </article>
-    </section>
-
-    <article>
-        <span>6.50€</span>
-        <figure><img src="img/ultra-violet.jpg" alt=""></figure>
-        <h2>Ultra violet</h2>
-        <section>
-            <ul>
-                <li>15|18</li>
-                <li>31|35</li>
-                <li>42|46</li>
-            </ul>
         </section>
-    </article>
-    </section>
+
+        <article>
+            <span>6.50€</span>
+            <figure><img src="img/ultra-violet.jpg" alt=""></figure>
+            <h2>Ultra violet</h2>
+            <section>
+                <ul>
+                    <li>15|18</li>
+                    <li>31|35</li>
+                    <li>42|46</li>
+                </ul>
+            </section>
+        </article>
+        </section>
 
 
-    </section>
+    </div>
     <!-- ==========================================================================
                End of main
 ========================================================================== -->
