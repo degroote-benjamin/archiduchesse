@@ -330,31 +330,33 @@ footer {
     height: 55px;
 }
 
-.imgfooter figcaption{
-  margin-left: 15px;
+.imgfooter figcaption {
+    margin-left: 15px;
 }
 
 .imgfooter h4 {
     font-size: 10px;
+    color: #555;
 }
 
-footer nav ul{
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
-  flex-wrap: wrap;
+footer nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    flex-wrap: wrap;
 }
 
-footer nav li a{
-  display: flex;
+footer nav li a {
+    display: flex;
     font-size: 10px;
     color: #555;
     margin-bottom: 7px;
 }
 
-footer label{
-  margin-right: 20px;
+footer label {
+    margin-right: 20px;
 }
+
 
 /* ==========================================================================
                                      end of footer rules
@@ -376,61 +378,56 @@ footer label{
     /* ==========================================================================
                   main rules
   ========================================================================== */
-
-
-  /* -------------------------------------------
+    /* -------------------------------------------
 
                               Start section rules
                               -------------------------------*/
-
-
-
-  .chausette {
-      width: 32%;
-  }
-
-  .chausetteimg {
-      width: 60%;
-  }
-
-
-  .chausette h2{
-    padding-bottom: 17px;
-  }
-
-  .sizeli {
-      display: block;
-  }
-
-  .sizeli ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    border-top: 1px solid rgba(0, 0, 0, 0.15);
-  }
-
-  .sizeli ul li{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-left: 5px;
-    background-color:purple;
-    padding: 2px;
-  }
-   .sizeli ul li span:last-child{
-     border-top: 1px solid white;
-   }
-  /* -------------------------------------------
+    .chausette {
+        width: 32%;
+    }
+    .chausetteimg {
+        width: 60%;
+    }
+    .chausette h2 {
+        padding-bottom: 17px;
+    }
+    .sizeli {
+        display: block;
+    }
+    .sizeli ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        border-top: 1px solid rgba(0, 0, 0, 0.15);
+    }
+    .sizeli ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 5px;
+        background-color: orange;
+        padding: 2px;
+    }
+    .sizeli ul li span:last-child {
+        border-top: 1px solid white;
+    }
+    /* -------------------------------------------
 
                               end of section rules
                               -------------------------------*/
-
     /* ==========================================================================
                      end of main rules
   ========================================================================== */
     /* ==========================================================================
-                              end of footer rules
+                              start of footer rules
   ========================================================================== */
+    footer nav ul {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    footer nav ul li {
+        width: 30%;
+    }
     /* ==========================================================================
                                        end of footer rules
   ========================================================================== */
@@ -440,12 +437,26 @@ footer label{
     /* ==========================================================================
                       common rules
   ========================================================================== */
+    header, .maincontainer, footer {
+        width: 65%;
+        margin: auto;
+    }
+    .logo i {
+        display: none;
+    }
     /* ==========================================================================
                      end of common rules
   ========================================================================== */
     /* ==========================================================================
                   header rules
   ========================================================================== */
+    header {
+        position: inherit;
+        box-shadow: inherit;
+    }
+    .navchausette, .mainnav, .panier {
+        display: none;
+    }
     /* ==========================================================================
                      end of header rules
   ========================================================================== */
