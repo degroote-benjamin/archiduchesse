@@ -437,12 +437,15 @@ footer label {
     /* ==========================================================================
                       common rules
   ========================================================================== */
-    header, .maincontainer, footer {
+    header, .maincontainer, footer{
         width: 65%;
         margin: auto;
     }
     .logo i {
         display: none;
+    }
+    .navchausette{
+      width: 100%;
     }
     /* ==========================================================================
                      end of common rules
@@ -450,12 +453,120 @@ footer label {
     /* ==========================================================================
                   header rules
   ========================================================================== */
+    .backgroundheader {
+        width: 100%;
+        background-color: lightgrey;
+    }
     header {
         position: inherit;
         box-shadow: inherit;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
     }
     .navchausette, .mainnav, .panier {
-        display: none;
+        display: block;
+    }
+    .logo {
+        width: 30%;
+    }
+    /* ---------------------------------------------
+
+    panier
+
+    -----------------------------------------*/
+    .panier {
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: lightpink;
+    }
+    .panier select {
+        width: 40px;
+        height: 15px;
+        font-size: 10px;
+        border-radius: 0px;
+    }
+    .panier select option {
+        font-size: 10px;
+    }
+    .panier>p, .panier>a {
+        font-size: 10px;
+    }
+    .productpanier {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .productpanier p:first-child {
+        font-size: 50px;
+    }
+    .productpanier p {
+        font-size: 13px;
+        padding-left: 10px;
+    }
+    /* ---------------------------------------------
+
+    panier
+
+    -----------------------------------------*/
+    .mainnav {
+        width: 20%;
+    }
+    .mainnav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    .logo figure, .logo img {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .mainnav ul, .navchausette ul {
+        display: flex;
+        list-style-type: none;
+        flex-wrap: wrap;
+    }
+    .navchausette{
+
+    }
+    .navchausette ul{
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+    .navchausette img,.navchausette figure {
+        width: 56px;
+        height: 56px;
+    }
+    .navchausette figure{
+      margin: 0;
+    }
+    .navchausette ul li {
+        width: 16%;
+    }
+    .navchausette ul li a {
+        display: flex;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        padding: 0 7px;
+    }
+    .navchausette p {
+        font-size: 10px;
+        color: #555;
+        width: 90%;
+    }
+    .navchausette span {
+        font-size: 16px;
+    }
+
+    .navchausette ul li:first-child{
+      background-color: white;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
     }
     /* ==========================================================================
                      end of header rules
