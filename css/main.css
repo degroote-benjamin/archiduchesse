@@ -192,6 +192,7 @@ h1 {
 .chausettesize {
     width: 90%;
     margin: auto;
+    padding-bottom: 10px;
 }
 
 .chausettesize ul {
@@ -200,12 +201,14 @@ h1 {
 }
 
 .chausettesize ul li {
-    width: 15%;
+    width: 62px;
+    height: 26px;
     background-color: rgba(240, 240, 240);
     margin-left: 7px;
     margin-bottom: 7px;
     border-radius: 4px;
     padding: 2px;
+    text-align: center;
 }
 
 .chausettesize li:first-child {
@@ -373,6 +376,55 @@ footer label{
     /* ==========================================================================
                   main rules
   ========================================================================== */
+
+
+  /* -------------------------------------------
+
+                              Start section rules
+                              -------------------------------*/
+
+
+
+  .chausette {
+      width: 32%;
+  }
+
+  .chausetteimg {
+      width: 60%;
+  }
+
+
+  .chausette h2{
+    padding-bottom: 17px;
+  }
+
+  .sizeli {
+      display: block;
+  }
+
+  .sizeli ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+  }
+
+  .sizeli ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 5px;
+    background-color:purple;
+    padding: 2px;
+  }
+   .sizeli ul li span:last-child{
+     border-top: 1px solid white;
+   }
+  /* -------------------------------------------
+
+                              end of section rules
+                              -------------------------------*/
+
     /* ==========================================================================
                      end of main rules
   ========================================================================== */
