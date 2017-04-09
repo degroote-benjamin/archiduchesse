@@ -114,7 +114,7 @@ a {
     color: black;
 }
 
-header, .maincontainer, .chausettesize ul, .imgarticle,.chausette span{
+header, .maincontainer, .chausettesize ul, .imgarticle, .chausette span, footer {
     display: flex;
 }
 
@@ -178,6 +178,7 @@ header {
 .maincontainer {
     margin-top: 80px;
     flex-wrap: wrap;
+    padding-bottom: 40px;
 }
 
 h1 {
@@ -251,9 +252,9 @@ h1 {
     padding-bottom: 20px;
 }
 
-.chausette span{
-  justify-content: flex-end;
-  font-size: 12px;
+.chausette span {
+    justify-content: flex-end;
+    font-size: 12px;
 }
 
 .chausette figure, .chausetteimg figure {
@@ -262,7 +263,7 @@ h1 {
     margin: auto;
 }
 
-.chausette img , .chausetteimg img {
+.chausette img, .chausetteimg img {
     width: 100%;
     height: auto;
 }
@@ -294,6 +295,63 @@ h1 {
                             end of footer rules
 ========================================================================== */
 
+footer {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+
+.imgfooter {
+    width: 45%;
+    background-color: rgba(240, 240, 240);
+    padding: 3px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.imgfooter a {
+    width: 100%;
+}
+
+.imgfooter figure {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: auto;
+    align-items: center;
+}
+
+.imgfooter img {
+    width: 57px;
+    height: 55px;
+}
+
+.imgfooter figcaption{
+  margin-left: 15px;
+}
+
+.imgfooter h4 {
+    font-size: 10px;
+}
+
+footer nav ul{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+footer nav li a{
+  display: flex;
+    font-size: 10px;
+    color: #555;
+    margin-bottom: 7px;
+}
+
+footer label{
+  margin-right: 20px;
+}
 
 /* ==========================================================================
                                      end of footer rules
