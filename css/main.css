@@ -114,7 +114,7 @@ a {
     color: black;
 }
 
-header, .maincontainer, .chausettesize ul, .imgarticle, .chausette span, footer {
+header, .maincontainer, .chausettesize ul, .imgarticle, .chausette span, .footer {
     display: flex;
 }
 
@@ -122,7 +122,7 @@ header, .maincontainer, .chausettesize ul, .imgarticle, .chausette span, footer 
     display: none;
 }
 
-.logo, header {
+.logo, header,footer {
     width: 100%;
 }
 
@@ -298,7 +298,7 @@ h1 {
                             end of footer rules
 ========================================================================== */
 
-footer {
+.footer {
     flex-wrap: wrap;
     justify-content: space-around;
     width: 90%;
@@ -339,21 +339,21 @@ footer {
     color: #555;
 }
 
-footer nav ul {
+.footer nav ul {
     display: flex;
     flex-direction: column;
     list-style-type: none;
     flex-wrap: wrap;
 }
 
-footer nav li a {
+.footer nav li a {
     display: flex;
     font-size: 10px;
     color: #555;
     margin-bottom: 7px;
 }
 
-footer label {
+.footer label {
     margin-right: 20px;
 }
 
@@ -421,11 +421,11 @@ footer label {
     /* ==========================================================================
                               start of footer rules
   ========================================================================== */
-    footer nav ul {
+    .footer nav ul {
         flex-direction: row;
         justify-content: space-between;
     }
-    footer nav ul li {
+    .footer nav ul li {
         width: 30%;
     }
     /* ==========================================================================
@@ -437,15 +437,20 @@ footer label {
     /* ==========================================================================
                       common rules
   ========================================================================== */
-    header, .maincontainer, footer{
+    header, .maincontainer, .footer {
         width: 65%;
         margin: auto;
     }
     .logo i {
         display: none;
     }
-    .navchausette{
-      width: 100%;
+    .navchausette {
+        width: 100%;
+    }
+
+    footer{
+      background-color: lightgrey;
+      padding-top: 35px;
     }
     /* ==========================================================================
                      end of common rules
@@ -463,6 +468,11 @@ footer label {
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 30px;
+    }
+
+    h1{
+      width: 100%;
     }
     .navchausette, .mainnav, .panier {
         display: block;
@@ -523,26 +533,22 @@ footer label {
         height: auto;
         margin: auto;
     }
-
     .mainnav ul, .navchausette ul {
         display: flex;
         list-style-type: none;
         flex-wrap: wrap;
     }
-    .navchausette{
-
+    .navchausette ul {
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
     }
-    .navchausette ul{
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-    }
-    .navchausette img,.navchausette figure {
+    .navchausette img, .navchausette figure {
         width: 56px;
         height: 56px;
     }
-    .navchausette figure{
-      margin: 0;
+    .navchausette figure {
+        margin: 0;
     }
     .navchausette ul li {
         width: 16%;
@@ -562,11 +568,10 @@ footer label {
     .navchausette span {
         font-size: 16px;
     }
-
-    .navchausette ul li:first-child{
-      background-color: white;
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px;
+    .navchausette ul li:first-child {
+        background-color: white;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
     }
     /* ==========================================================================
                      end of header rules
@@ -574,12 +579,32 @@ footer label {
     /* ==========================================================================
                   main rules
   ========================================================================== */
+    .chausettesize ul {
+        position: fixed;
+        flex-direction: column;
+        right: 35px;
+        top: 300px;
+    }
+
+    .chausette{
+      width: 22%;
+    }
+
+    .chausetteimg{
+      width: 44%;
+    }
     /* ==========================================================================
                      end of main rules
   ========================================================================== */
     /* ==========================================================================
                               end of footer rules
   ========================================================================== */
+
+  .imgfooter{
+    width: 22%;
+    margin-right: 50px;
+    margin-bottom: 25px;
+  }
     /* ==========================================================================
                                        end of footer rules
   ========================================================================== */
