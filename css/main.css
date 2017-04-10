@@ -118,7 +118,7 @@ header, .maincontainer, .chausettesize ul, .imgarticle, .chausette span, .footer
     display: flex;
 }
 
-.navchausette, .mainnav, .panier {
+.navchausette, .mainnav, .panier,.navblog {
     display: none;
 }
 
