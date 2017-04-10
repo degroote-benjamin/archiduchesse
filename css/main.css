@@ -301,61 +301,61 @@ h1 {
 
 /* -------------------------- blog.html ---------------------------*/
 
-.maincontainerblog{
-  width: 90%;
-  margin: auto;
-  margin-top:70px;
-  margin-bottom: 45px;
+.maincontainerblog {
+    width: 90%;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 45px;
 }
 
-
-.mainblog{
-  width: 100%;
+.mainblog {
+    width: 100%;
 }
 
-.articleblog h2{
-  font-weight: lighter;
-  color: #454545;
+.articleblog h2 {
+    font-weight: lighter;
+    color: #454545;
 }
 
-.commentaire{
-  font-size: 12px;
-  color: #BABBB7;
-  margin-bottom: 20px;
+.commentaire {
+    font-size: 12px;
+    color: #BABBB7;
+    margin-bottom: 20px;
 }
 
-.commentaire a{
-  text-decoration: underline;
-  color: #BABBB7;
-  margin-bottom: 50px;
+.commentaire a {
+    text-decoration: underline;
+    color: #BABBB7;
+    margin-bottom: 50px;
 }
 
-.articleblog p{
-  font-size: 11px;
+.articleblog p {
+    font-size: 11px;
 }
 
-.articleblog figure{
-  width: 100%;
-  height: auto;
-  margin: auto;
-  padding: 7px 0;
-  border: 1px solid black;
-  margin-bottom: 5px;
+.articleblog figure {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 7px 0;
+    border: 1px solid black;
+    margin-bottom: 5px;
 }
 
-.articleblog img{
-  display: block;
-  width: 95%;
-  margin: auto;
+.articleblog img {
+    display: block;
+    width: 95%;
+    margin: auto;
 }
 
-.articleblog{
-  margin-bottom: 20px;
+.articleblog {
+    margin-bottom: 20px;
 }
 
-.espace{
-  margin-bottom: 20px;
+.espace {
+    margin-bottom: 20px;
 }
+
 
 /* -------------------------- blog.html ---------------------------*/
 
@@ -486,20 +486,14 @@ h1 {
 
                               end of section rules
                               -------------------------------*/
-
-
-/* ---------------------------- blog.html -----------------------*/
-
-
-.articleblog p{
-  font-size: 14px;
-}
-
-.maincontainerblog{
-  width: 83%;
-}
-
-/*-------------------------------- blog.html -------------------*/
+    /* ---------------------------- blog.html -----------------------*/
+    .articleblog p {
+        font-size: 14px;
+    }
+    .maincontainerblog {
+        width: 83%;
+    }
+    /*-------------------------------- blog.html -------------------*/
     /* ==========================================================================
                      end of main rules
   ========================================================================== */
@@ -679,6 +673,47 @@ h1 {
     .chausetteimg {
         width: 44%;
     }
+    /* ---------------------------------------- blog.html
+    --------------------------------------------------------------------- */
+
+    .maincontainerblog{
+      width: 65%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .mainblog{
+      width: 70%;
+    }
+
+    .navblog{
+      display: block;
+      width: 25%;
+    }
+
+    .navblog ul{
+      list-style-type: none;
+    }
+
+    .navblog a{
+      color: blue;
+    }
+
+    .navblog a:hover{
+      color: black;
+    }
+
+    .navblog article {
+      display: flex;
+      margin-bottom: 30px;
+    }
+
+    .navblog figure{
+      margin: 0 40px;
+    }
+
+    /* ---------------------------------------- blog.html
+    --------------------------------------------------------------------- */
     /* ==========================================================================
                      end of main rules
   ========================================================================== */
