@@ -696,7 +696,17 @@ h1 {
     }
 
     .navblog a{
-      color: blue;
+      color: lightblue;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .navblog article i {
+      color: #454545;
+    }
+
+    .navblog p:first-child{
+      color: #454545;
     }
 
     .navblog a:hover{
@@ -711,6 +721,8 @@ h1 {
     .navblog figure{
       margin: 0 40px;
     }
+
+
 
     /* ---------------------------------------- blog.html
     --------------------------------------------------------------------- */
