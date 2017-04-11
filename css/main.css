@@ -124,7 +124,7 @@ header, .maincontainer, .chausettesize ul, .imgarticle, .chausette span, .footer
     display: flex;
 }
 
-.navchausette, .mainnav, .panier, .navblog,.tablet,.desktop {
+.navchausette, .mainnav, .panier, .navblog, .tablet, .desktop {
     display: none;
 }
 
@@ -354,6 +354,7 @@ h1 {
     margin: auto;
 }
 
+
 .articleblog {
     margin-bottom: 20px;
 }
@@ -443,17 +444,15 @@ h1 {
     /* ==========================================================================
                       common rules
   ========================================================================== */
-  .mobile{
-    display: none;
-  }
-
-  .tablet{
-    display: block;
-  }
+    .mobile {
+        display: none;
+    }
+    .tablet {
+        display: block;
+    }
     /* ==========================================================================
                      end of common rules
   ========================================================================== */
-
     /* ==========================================================================
                   main rules
   ========================================================================== */
@@ -516,8 +515,8 @@ h1 {
         width: 30%;
     }
     /* ---------------------------- blog.html -----------------------*/
-    .navfooterblog{
-      width: 100%;
+    .navfooterblog {
+        width: 100%;
     }
     /* ---------------------------- blog.html -----------------------*/
     /* ==========================================================================
@@ -543,12 +542,11 @@ h1 {
         background-color: lightgrey;
         padding-top: 35px;
     }
-    .tablet{
-      display: none;
+    .tablet {
+        display: none;
     }
-
     .desktop {
-      display: block;
+        display: block;
     }
     /* ==========================================================================
                      end of common rules
