@@ -114,6 +114,12 @@ a {
     color: black;
 }
 
+a:hover {
+    color: black;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
 header, .maincontainer, .chausettesize ul, .imgarticle, .chausette span, .footer {
     display: flex;
 }
@@ -507,6 +513,11 @@ h1 {
     .footer nav ul li {
         width: 30%;
     }
+    /* ---------------------------- blog.html -----------------------*/
+    .navfooterblog{
+      width: 100%;
+    }
+    /* ---------------------------- blog.html -----------------------*/
     /* ==========================================================================
                                        end of footer rules
   ========================================================================== */
@@ -586,6 +597,9 @@ h1 {
     .panier>p, .panier>a {
         font-size: 10px;
     }
+    .panier a {
+        text-decoration: underline;
+    }
     .productpanier {
         display: flex;
         align-items: center;
@@ -609,6 +623,17 @@ h1 {
     .mainnav ul {
         display: flex;
         justify-content: space-around;
+    }
+    .mainnav ul li {
+        padding: 5px;
+    }
+    .mainnav ul li:hover {
+        background-color: white;
+        border-radius: 4px;
+    }
+    .mainnav ul li a:hover {
+        text-decoration: none;
+        font-weight: inherit;
     }
     .logo figure, .logo img {
         width: 100%;
@@ -675,55 +700,44 @@ h1 {
     }
     /* ---------------------------------------- blog.html
     --------------------------------------------------------------------- */
-
-    .maincontainerblog{
-      width: 65%;
-      display: flex;
-      justify-content: space-between;
+    .maincontainerblog {
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
     }
-
-    .mainblog{
-      width: 70%;
+    .mainblog {
+        width: 70%;
     }
-
-    .navblog{
-      display: block;
-      width: 25%;
+    .navblog {
+        display: block;
+        width: 25%;
     }
-
-    .navblog ul{
-      list-style-type: none;
+    .navblog ul {
+        list-style-type: none;
     }
-
-    .navblog a{
-      color: lightblue;
-      font-size: 20px;
-      margin-bottom: 20px;
+    .navblog a {
+        color: lightblue;
+        font-size: 20px;
+        margin-bottom: 20px;
     }
-
     .navblog article i {
-      color: #454545;
+        color: #454545;
     }
-
-    .navblog p:first-child{
-      color: #454545;
+    .navblog p:first-child {
+        color: #454545;
     }
-
-    .navblog a:hover{
-      color: black;
+    .navblog a:hover {
+        color: black;
+        text-decoration: none;
+        font-weight: inherit;
     }
-
     .navblog article {
-      display: flex;
-      margin-bottom: 30px;
+        display: flex;
+        margin-bottom: 30px;
     }
-
-    .navblog figure{
-      margin: 0 40px;
+    .navblog figure {
+        margin: 0 40px;
     }
-
-
-
     /* ---------------------------------------- blog.html
     --------------------------------------------------------------------- */
     /* ==========================================================================
